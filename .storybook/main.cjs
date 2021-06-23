@@ -1,1 +1,5 @@
-module.exports = { core: { builder: 'webpack5' }, stories: ['../test.stories.js'] }
+module.exports = {
+  core: { builder: 'webpack5' },
+  addons: ['@storybook/addon-actions/register'],
+  stories: ['../test.stories.js'],
+}
