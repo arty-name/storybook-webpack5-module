@@ -8,5 +8,9 @@
     "@storybook/builder-webpack5": "^6.5.0-alpha.5",
     "@storybook/manager-webpack5": "^6.5.0-alpha.5",
     "@storybook/react": "^6.5.0-alpha.5"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6007",
+    "build-storybook": "build-storybook"
   }
 }
